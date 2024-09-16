@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;font-weight: 500;font-style: normal;font-size: 25px;
 }
 
 ::-webkit-scrollbar{
@@ -68,7 +69,9 @@ body {
 .abc{
     font-family: "Roboto", sans-serif;font-weight: 500;font-style: normal;font-size: 25px;
 }
-
+h2{
+    color: #00000096;
+}
 .list {
     display: flex;
     justify-content: space-between;
@@ -87,20 +90,20 @@ body {
     width: 100%;
     display: inline-block;
     position: relative;
-  }
-  .search input[type="text"] {
+}
+.search input[type="text"] {
     font-size: 16px;
     width: 100%;
     padding: 15px;
     border: none;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  :focus-visible{
+}
+:focus-visible{
     outline: 0px !important;
-  }
-  
-  .search button[type="submit"] {
+}
+
+.search button[type="submit"] {
     font-size: 16px;
     background-color: #af7eeb;
     border: none;
@@ -113,14 +116,14 @@ body {
     top: 0;
     right: 0;
     transition: .9s ease;
-  }
-  
-  .search button[type="submit"]:hover {
+}
+
+.search button[type="submit"]:hover {
     transform: scale(1.1);
     color: rgb(255, 255, 255);
     background-color: #843dda;
-  }
-  
+}
+
 
 @media(max-width:520px) {
     .container {
