@@ -1,12 +1,43 @@
 
+// let input = document.querySelector("#input")
+// let btn = document.querySelector("#btn")
+// let ol = document.querySelector("#ol")
+// let userArr = []
 
-let input = document.querySelector("#input")
-let btn = document.querySelector("#btn")
+// btn.addEventListener("click" , function total() {
+//     userArr.push(input.value);
+//     console.log(userArr);
+//     input.value = ""
 
-let userArr = []
+//     for(let i = 0; i < userArr.length; i++){
+//         ol.innerHtml = `<li>${userArr [i]}</li>`
+//     }
+// })
 
-btn.addEventListener("click" , function total() {
-    console.log(`user Arrey ${userArr = input.value}`);
-    console.log(`User Value ${input.value}`);
-    input.value = ""
-})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
