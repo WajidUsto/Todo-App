@@ -9,7 +9,7 @@ let div = document.querySelector('.main');
 function todo() {
     div.innerHTML = ""
     for(let i = 0; i < todoArr.length; i++){
-        div.innerHTML += `s
+        div.innerHTML += `
         <div class = "list">
         <h2 class = "h2">${todoArr[i]}</h2>
         <div class = "icons">
